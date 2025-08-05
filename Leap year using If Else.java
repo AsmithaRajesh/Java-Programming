@@ -1,5 +1,18 @@
+SYNTAX:
+if (boolean_expression1)
+{
+ // One or more lines of code.
+}
+else if (boolean_expression2) // OPTIONAL
+{
+ // Still more lines of code.
+}
+else // OPTIONAL
+{
+ // Yet more lines of code.
+}
+EXAMPLE:
 import java.util.Scanner;
-
 public class LeapYearChecker {
     public static void main(String[] args) {
         Scanner Scanner = new Scanner(System.in);
