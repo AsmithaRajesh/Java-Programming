@@ -1,3 +1,13 @@
+DEFINE:
+Because the condition is checked first in a while loop, it is possible that the loop may
+never execute. This second iteration type ensures that the loop block executes at least
+once by placing the condition at the end of the loop.
+SYNTAX:
+do
+{
+ // loop block
+} while (boolean_expression);
+EXAMPLE:
 import java.util.Scanner;
 
 public class Main {
@@ -19,8 +29,3 @@ public class Main {
     } 
 }
 
-SYNTAX:
-do
-{
- // loop block
-} while (boolean_expression);
