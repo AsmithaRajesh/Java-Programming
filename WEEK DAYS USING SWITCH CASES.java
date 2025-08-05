@@ -1,3 +1,19 @@
+DEFINE:
+The switch statement allows a choice from a number of options. It will test a number of
+cases against a variable of type char, byte, short, or int.
+SYNTAX:
+switch (variable)
+{
+ case value0:
+ // block to execute
+ break;
+ case value1:
+ // block to execute
+ break;
+ default:
+ // block to execute
+}
+EXAMPLE:
 import java.util.Scanner;
 public class weeks{
     public static void main(String[] args){
@@ -30,16 +46,5 @@ public class weeks{
         }
         }
     } 
-SYNTAX:
-switch (variable)
-{
- case value0:
- // block to execute
- break;
- case value1:
- // block to execute
- break;
- default:
- // block to execute
-}
+
 
