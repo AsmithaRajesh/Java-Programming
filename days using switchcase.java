@@ -29,5 +29,17 @@ public class weeks{
          
         }
         }
-    }
+    } 
+SYNTAX:
+switch (variable)
+{
+ case value0:
+ // block to execute
+ break;
+ case value1:
+ // block to execute
+ break;
+ default:
+ // block to execute
+}
 
