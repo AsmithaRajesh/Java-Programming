@@ -1,3 +1,14 @@
+DEEFINE:
+while (boolean_expression)
+{
+ // loop block
+}
+SYNTAX:
+while (boolean_expression)
+{
+ // loop block
+}
+EXAMPLE:
 import java.util.Scanner;
 
 public class Main {
@@ -17,9 +28,4 @@ public class Main {
         
         
     } 
-}
-SYNTAX:
-while (boolean_expression)
-{
- // loop block
 }
