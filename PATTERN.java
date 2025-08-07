@@ -1,4 +1,4 @@
-NUMBER PATTERN:
+#NUMBER PATTERN:
 import java.util.Scanner ;
 public class Main {
     public static void main(String[] args) {
@@ -13,7 +13,7 @@ public class Main {
     }
 }
 
-REVERSE PATTERN:
+#REVERSE PATTERN:
 public class Main {
     public static void main(String[] args) {
         int n = 8;
@@ -27,7 +27,7 @@ public class Main {
     }
 }
 
-CONTINUOUS RANGE NUMBER PATTERN:
+#CONTINUOUS RANGE NUMBER PATTERN:
 public class Main {
     public static void main(String[] args) {
         int num = 1;      
@@ -41,7 +41,7 @@ public class Main {
         }
     }
 }
-SQUARE VALUES PATTERN:
+#SQUARE VALUES PATTERN:
 public class Main {
     public static void main(String[] args) {
         int num = 1;      
@@ -56,14 +56,14 @@ public class Main {
     }
 }
 
-REMAINSER VALUES PATTERN:
+#REMAINDER VALUES PATTERN:
 public class Main {
     public static void main(String[] args) {
         int num = 1;
         int n = 6;
         for (int i = 1; i <= n; i++) {        
             for (int j = 1; j <= i; j++) {    
-                System.out.print(((num * num) % 2) + " ");  
+                System.out.print((num % 2) + " ");  
                 num++;
             }
             System.out.println();
