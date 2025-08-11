@@ -30,3 +30,23 @@ class Main {
         }
     }
 }
+
+#SUM OF TWO ARRAYS:
+class SumOfTwoArrays {
+    public static void main(String[] args) {
+        int[] arr1 = {1, 2, 3, 4, 5};
+        int[] arr2 = {1, 2, 3, 4, 5};
+        if (arr1.length != arr2.length) {
+            System.out.println("Arrays must be of same length!");
+            return;
+        }
+        int[] sumArray = new int[arr1.length];
+        for (int i = 0; i < arr1.length; i++) {
+            sumArray[i] = arr1[i] + arr2[i];
+        }
+        System.out.print("Sum of arrays: ");
+        for (int num : sumArray) {
+            System.out.print(num + " ");
+        }
+    }
+}
