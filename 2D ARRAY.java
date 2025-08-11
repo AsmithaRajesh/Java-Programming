@@ -27,6 +27,32 @@ class Main {
     }
 }
 
+#
+class Main {
+    public static void main(String[] args) {
+        int x = 3;
+        int y = 3;
+        int[][] arr = new int[x][y]; 
+        int num = 1;
+        for (int i = 0; i < x; i++) {
+            for (int j = 0; j < y; j++) {
+                arr[i][j] = num++;
+            }
+        }
+        for (int i = 0; i < x / 2; i++) {
+            int temp = arr[i][1];
+            arr[i][1] = arr[x - 1 - i][1];
+            arr[x - 1 - i][1] = temp;
+        }
+        for (int i = 0; i < x; i++) {
+            for (int j = 0; j < y; j++) {
+                System.out.print(arr[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+}
+
 #3x3 MATRIX :
 class Main {
     public static void main(String[] args) {
