@@ -70,3 +70,16 @@ public class Main {
         sc.close();
     }
 }
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        String data = "hello";
+        String hi = "hi %s my age %d";
+        System.out.println(data.equalsIgnoreCase("hello"));
+        System.out.println(String.format(hi,"hello",20));
+
+        
+       
+    }
+}
