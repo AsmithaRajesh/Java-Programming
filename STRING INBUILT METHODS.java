@@ -105,3 +105,14 @@ public class Main {
         System.out.printf(hi, "hello", 20);
     }
 }
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        char[] data = {'0','1','2','3','4','5','6','7','8','9'};
+        System.out.println(data);
+        String myString = "helloworld";
+        myString.getChars(7,10,data,4);
+        System.out.println(data);
+    }
+}
