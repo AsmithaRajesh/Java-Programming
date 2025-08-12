@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 class Main {
     public static void main(String[] args) {
         Scanner data = new Scanner(System.in);
@@ -21,12 +20,12 @@ class Main {
         System.out.println("The number is: " + ch3);
         
         int ch4=str.compareTo(str1);
-        System.out.println("Result:"+ch4);
+        System.out.println("Comparison Result:"+ ch4);
         
-       
+        int ch5 = str.compareToIgnoreCase(str1);
+        System.out.println("Result:"+ ch5);
         
-        
-
-    
+        String ch6=str.concat(str1);
+        System.out.println(ch6);
     }
 }
