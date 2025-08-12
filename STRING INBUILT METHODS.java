@@ -77,9 +77,31 @@ public class Main {
         String data = "hello";
         String hi = "hi %s my age %d";
         System.out.println(data.equalsIgnoreCase("hello"));
-        System.out.println(String.format(hi,"hello",20));
+        System.out.println(String.format(hi,"hello",20));       
+    }
+}
 
-        
-       
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a word: ");
+        String data = sc.nextLine();
+        System.out.print("Enter your age: ");
+        int age = sc.nextInt();
+        String hi = "hi %s my age %d";
+        System.out.println(data.equalsIgnoreCase("jayasri"));
+        System.out.printf(hi, data, age);
+    }
+}
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        String data = "hello";
+        String hi = "hi %s my age %d";
+        System.out.println(data.equalsIgnoreCase("hello"));
+        System.out.printf(hi, "hello", 20);
     }
 }
