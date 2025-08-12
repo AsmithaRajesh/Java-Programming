@@ -148,3 +148,13 @@ public class Main {
         System.out.print(name.indexOf("maha"));
     }
 }
+
+
+public class Main {
+    public static void main(String[] args) {
+        String name="Hello World";
+        String names="";
+        System.out.println(name.isEmpty());
+        System.out.println(names.isEmpty());
+    }
+}
