@@ -134,3 +134,17 @@ public class Main {
         System.out.println(name.hashCode());
  }
 }
+
+public class Main {
+    public static void main(String[] args) {
+        String name="Asmitha";
+        System.out.print(name.toUpperCase());
+ }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        String name="Asmitha maha";
+        System.out.print(name.indexOf("maha"));
+    }
+}
