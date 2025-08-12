@@ -126,3 +126,11 @@ public class Main {
         System.out.print(mystring);
  }
 }
+
+public class Main {
+    public static void main(String[] args) {
+        String name="Asmitha";
+        byte[] arr=name.getBytes();
+        System.out.println(name.hashCode());
+ }
+}
