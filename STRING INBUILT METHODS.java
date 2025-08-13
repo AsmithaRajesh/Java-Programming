@@ -248,3 +248,14 @@ class Main {
         scanner.close();  
     }
 }
+
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in); 
+        System.out.print("Enter a string: ");
+        String x = scanner.nextLine();          
+            System.out.println(x.toUpperCase());       
+            System.out.println(x.toLowerCase());       
+        }
+    }
