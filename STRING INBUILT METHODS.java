@@ -194,3 +194,51 @@ public class Main {
     }
 }
 }
+
+import java.util.Scanner;  
+class Main {
+    public static void main(String[] args) {
+        Scanner data= new Scanner(System.in);
+        System.out.print("Enter a string: ");
+        String x = data.nextLine();
+        String y = "[\\.\\s]";  
+        String[] z = x.split(y);
+        String concatenated = "";
+        System.out.println("Split parts:");
+        for (String s : z) {
+            System.out.println(s);
+            concatenated += s;
+        }
+        System.out.println("Concatenated string: " + concatenated);
+    }
+}
+
+
+public class Main {
+    public static void main(String[] args) {
+        String a="Hello";
+        System.out.println(a.startsWith("Hello"));
+        System.out.println(a.startsWith("World"));
+    }
+}
+
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        String x = "hello world";
+        char[] y = x.toCharArray();   
+        System.out.println(y[8]);
+        
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        String x = "hello world";
+        char[] y = x.toCharArray();   
+        for (int i = 0; i < y.length; i++) {
+            System.out.print(y[i]); 
+        }
+    }
+}
