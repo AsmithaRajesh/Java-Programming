@@ -158,3 +158,39 @@ public class Main {
         System.out.println(names.isEmpty());
     }
 }
+
+public class Main {
+    public static void main(String[] args) {
+        String a="Hello Asmitha";
+        String b="World Maha";
+        String x = "Asmitha|Maha|java";
+        System.out.println("Asmitha".matches(x));
+        System.out.println("Maha".matches(x));
+        System.out.println("Java".matches(x));
+        System.out.println(a.regionMatches(7,a,4,5));
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        String a="Hello";
+        String b="Hello Asmitha Hello";
+        System.out.println(a.replace('l','p'));
+        String x="(?i)Hello";
+        System.out.println(b.replaceAll(x,"Hi"));
+        String y="Hello";
+        System.out.println(b.replaceFirst(y,"Hi"));
+    }
+}
+
+
+public class Main {
+    public static void main(String[] args) {
+        String x="Hello World";
+        String y="[,\\.\\s]";
+        String[] z=x.split(y);
+        for(String  s:z){
+        System.out.print(s);
+    }
+}
+}
