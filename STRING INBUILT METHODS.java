@@ -233,12 +233,18 @@ class Main {
     }
 }
 
+import java.util.Scanner;
+
 class Main {
     public static void main(String[] args) {
-        String x = "hello world";
-        char[] y = x.toCharArray();   
+        Scanner scanner = new Scanner(System.in); 
+        System.out.print("Enter a string: ");
+        String x = scanner.nextLine();          
+        char[] y = x.toCharArray();
         for (int i = 0; i < y.length; i++) {
-            System.out.print(y[i]); 
+            System.out.print(y[i]);               
         }
+        
+        scanner.close();  
     }
 }
