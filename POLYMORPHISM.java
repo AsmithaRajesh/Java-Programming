@@ -25,3 +25,40 @@ public class Main {
         b.drive();
     }
 }
+
+
+class Payment {
+    public void payment() {
+        System.out.println("Payment");
+    }
+}
+class UPI extends Payment {
+    @Override
+    public void payment() {
+        System.out.println("UPI Payment");
+    }
+}
+class Banktransfer extends Payment{
+    @Override
+    public void payment() {
+        System.out.println("Bank Transfer Payment");
+    }
+}
+class Creditcard extends Payment{
+    @Override
+    public void payment() {
+        System.out.println("Credit card Payment");
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Payment v = new UPI();
+        v.payment();
+        Payment a = new Banktransfer();
+        a.payment();
+        Payment c = new Creditcard();
+        c.payment();
+        Payment b = new Payment();
+        b.payment();
+    }
+}
